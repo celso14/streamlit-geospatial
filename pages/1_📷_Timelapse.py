@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 
 
 @st.cache_data
-def ee_authenticate(token_name="EARTHENGINE_TOKEN"):
+def ee_authenticate(token_name="4/1Adeu5BXwZl9PyhKHiA8j9oBD16_bD5Tl9nSGc9dDDRkICphOI_cX9dsAKIo"):
     geemap.ee_initialize(token_name=token_name)
 
 
